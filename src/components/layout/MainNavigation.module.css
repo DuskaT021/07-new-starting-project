@@ -13,3 +13,35 @@
     color: whitesmoke;
     font-weight: bold;
 }
+
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items:baseline;
+}
+
+.header li {
+    margin-left: 3rem;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fcb8d2;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+    color: whitesmoke;
+}
+
+.badge {
+    background-color: #cc2062;
+    color: whitesmoke;
+    border-radius: 12px;
+    padding: 0 1rem;
+    margin-left: 0,5rem;
+}

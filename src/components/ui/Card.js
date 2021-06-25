@@ -1,4 +1,3 @@
-import { props } from 'bluebird';
 import classes from './Card.module.css';
 
 function Card(props){
